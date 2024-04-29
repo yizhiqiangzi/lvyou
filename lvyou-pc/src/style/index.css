@@ -1,0 +1,23 @@
+.uoload-recom{
+    padding: 20px 0;
+}
+.uoload-recom img{
+    width: 90px;
+    height: 120px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.uoload-recom div:nth-child(2){
+    flex: 1;
+    padding-left: 10px;
+}
+.uoload-recom p{
+    margin: 5px 0;
+}
+.uoload-recom p:nth-child(1){
+    font-weight: bold;
+    color: #333 !important;
+}
+.uoload-recom p{
+    color: rgba(0,0,0,.55);
+}

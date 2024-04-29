@@ -1,0 +1,32 @@
+[
+{
+    "image": "https://diancan-1252107261.cos.accelerate.myqcloud.com/lvyou/a-luying.jpg",
+    "categories": "露营",
+    "color": "#587fac"
+},
+{
+    "image": "https://diancan-1252107261.cos.accelerate.myqcloud.com/lvyou/a-shanghua.jpg",
+    "categories": "赏花踏青",
+    "color": "#856754"
+},
+{
+    "image": "https://diancan-1252107261.cos.accelerate.myqcloud.com/lvyou/a-qixing.jpg",
+    "categories": "徒步骑行",
+    "color": "#78859d"
+},
+{
+    "image": "https://diancan-1252107261.cos.accelerate.myqcloud.com/lvyou/a-wanghong.jpg",
+    "categories": "网红打卡",
+    "color": "#7f7c4d"
+},
+{
+    "image": "https://diancan-1252107261.cos.accelerate.myqcloud.com/lvyou/a-guzhen.jpg",
+    "categories": "游古镇",
+    "color": "#dcd1d4"
+},
+{
+    "image": "https://diancan-1252107261.cos.accelerate.myqcloud.com/lvyou/a-meishi.jpg",
+    "categories": "特色美食",
+    "color": "#70838d"
+}
+]

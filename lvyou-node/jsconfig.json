@@ -1,0 +1,11 @@
+
+//配置路径别名
+{
+  "compilerOptions": {
+    "baseUrl": ".",//基础路径
+    "paths": {//配置别名
+      "@/*":["./*"]  //@/开头的路径都映射到./*上面
+    }
+  },
+  "exclude": ["node_modules"]  //路径别名排除node_modules这个文件
+}

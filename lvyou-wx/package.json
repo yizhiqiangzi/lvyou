@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "cos-wx-sdk-v5": "^1.4.10",
+    "js-base64": "^3.7.5",
+    "moment": "^2.29.4"
+  }
+}

@@ -1,0 +1,184 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationBarTitleText": "发表游记"
+			}
+		},
+		{
+			"path": "pages/types-travel/index",
+			"style": {
+				"navigationBarTitleText": "游记"
+			}
+		},
+		{
+			"path": "pages/found/found",
+			"style": {
+				"navigationBarTitleText": "目的地",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my-concern/concern",
+			"style": {
+				"navigationBarTitleText": "关注"
+			}
+		},
+		{
+			"path": "pages/details-page/video",
+			"style": {
+				"navigationBarTitleText": "短视频",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/found/address-image",
+			"style": {
+				"navigationBarTitleText": "图片集"
+			}
+		},
+		{
+			"path": "pages/companion/managing-member",
+			"style": {
+				"navigationBarTitleText": "管理成员"
+			}
+		},
+		{
+			"path": "pages/companion/partner-details",
+			"style": {
+				"navigationBarTitleText": "结伴详情"
+			}
+		},
+		{
+			"path": "pages/companion/my-activities",
+			"style": {
+				"navigationBarTitleText": "我的活动"
+			}
+		},
+		{
+			"path": "pages/companion/Init-partner",
+			"style": {
+				"navigationBarTitleText": "发起结伴"
+			}
+		},
+		{
+			"path": "pages/companion/companion",
+			"style": {
+				"navigationBarTitleText": "旅游结伴"
+			}
+		},
+		{
+			"path": "pages/search-travel/search",
+			"style": {
+				"navigationBarTitleText": "景点搜索"
+			}
+		},
+		{
+			"path": "pages/search-city/city",
+			"style": {
+				"navigationBarTitleText": "选择目的地"
+			}
+		},
+		{
+			"path": "pages/password-settings/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/personal-data/personal",
+			"style": {
+				"navigationBarTitleText": "编辑资料"
+			}
+		},
+		{
+			"path": "pages/details-page/details",
+			"style": {
+				"navigationBarTitleText": "详情页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Login-pop-up/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/xh-gpt/index",
+			"style": {
+				"navigationBarTitleText": "gpt",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/weather/index",
+			"style": {
+				"navigationBarTitleText": "天气"
+				// "navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tab/shouye-a.png",
+				"selectedIconPath": "static/tab/shouye-b.png"
+			},
+			{
+				"pagePath": "pages/found/found",
+				"text": "目的地",
+				"iconPath": "static/tab/mudidi-a.png",
+				"selectedIconPath": "static/tab/mudidi-b.png"
+			},
+			{
+				"pagePath": "pages/publish/publish",
+				"text": "发表",
+				"iconPath": "static/tab/fabiao-a.png",
+				"selectedIconPath": "static/tab/fabiao-b.png"
+			},
+			{
+				"pagePath": "pages/my-concern/concern",
+				"text": "关注",
+				"iconPath": "static/tab/guanzhu-a.png",
+				"selectedIconPath": "static/tab/guanzhu-b.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tab/wode-a.png",
+				"selectedIconPath": "static/tab/wode-b.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

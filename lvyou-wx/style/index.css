@@ -1,0 +1,142 @@
+/* 发布结伴 */
+.companion-name image{
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 50%;
+	display: block;
+	margin-right: 16rpx;
+}
+.companion-name text:nth-child(1){
+	font-weight: bold;
+	font-size: 30rpx;
+}
+.companion-name text:nth-child(2){
+	font-size: 26rpx;
+	color: #b1b1b1;
+	padding-top: 10rpx;
+}
+.companion-new{
+	margin-right: 0;
+	margin-left: auto;
+	background-color: #f8d957;
+	font-size: 28rpx;
+	font-weight: bold;
+	border-radius: 80rpx;
+	padding: 10rpx 30rpx;
+}
+.companion-title{
+	font-size: 32rpx;
+	font-weight: bold;
+	margin: 20rpx 0;
+	-webkit-line-clamp: 2 !important;
+	line-height: 1.5;
+}
+.companion-time{
+	padding-bottom: 20rpx;
+}
+.companion-time image{
+	width: 36rpx;
+	height: 36rpx;
+	display: block;
+	margin-right: 10rpx;
+}
+.companion-image{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 6rpx;
+}
+.companion-image image{
+	width: 100%;
+	height: 300rpx;
+	border-radius: 8rpx;
+}
+.companion-people{
+	font-size: 30rpx;
+	padding-top: 20rpx;
+	color: #b1b1b1;
+}
+.companion-view{
+	border-bottom: 2rpx solid #e3e4e7;
+	padding: 20rpx;
+}
+.sign-up{
+	background-color: #f8d957;
+	display: inline-block;
+	padding: 20rpx 0;
+	width: 300rpx;
+	border-radius: 80rpx;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.other-up{
+	position: fixed;
+	bottom: 60rpx;
+	right: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	box-shadow: 0 0 20rpx rgba(217, 217, 217, .8);
+}
+.other-textarea{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 60rpx;
+}
+.nav-position{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+.Reg-details{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.Reg-details text{
+	font-size: 28rpx;
+}
+.Reg-details text:nth-child(1){
+	color: #b1b1b1;
+}
+.Reg-details text:nth-child(2){
+	font-weight: bold;
+	border: 2rpx solid #e3e4e7;
+	padding: 8rpx 30rpx;
+	border-radius: 80rpx;
+}
+.disableStyle{
+	background-color: #dcf8f1 !important;
+	pointer-events:none;
+}
+/* tab滑动导航栏 */
+.container{
+	background-color: #ffffff;
+}
+.tabs {
+	white-space: nowrap;
+	width: 100%;
+}
+.tab {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20rpx;
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #999;
+}
+.active{
+  color: #000;
+}
+.tab-underline {
+	width: 50rpx;
+	height: 8rpx;
+	margin-top: 10rpx;
+	border-radius: 4rpx;
+}
+.activeBor{
+	background-color: #f8e254;
+}
